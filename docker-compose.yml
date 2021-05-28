@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  web:
+    image: drupal-me
+    build:
+      context: .
+    ports:
+      - "8080:80"
+    volumes:
+      - ./www:/var/www/html
+      - ./conf/php.ini:/etc/php/7.3/cli/php.ini
