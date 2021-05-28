@@ -1,0 +1,11 @@
+name = Commerce Kickstart Comment
+description = Provides Kickstart-specific comment customizations.
+package = Commerce Kickstart
+core = 7.x
+dependencies[] = comment
+
+; Information added by Drupal.org packaging script on 2021-05-11
+version = "7.x-2.71"
+core = "7.x"
+project = "commerce_kickstart"
+datestamp = "1620726454"
